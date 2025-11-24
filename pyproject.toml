@@ -1,0 +1,31 @@
+[project]
+name = "3d-ml"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.7",
+    "numpy>=2.2.6",
+    "trimesh>=4.9.0",
+    "tqdm>=4.66.5",
+    "torch>=2.6.0",
+    "torchvision>=0.22.1",
+    "torchaudio>=2.7.1",
+    "torchinfo>=1.8.0",
+]
+
+
+[tool.uv.sources]
+torch = {index = "pytorch"}
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu126"
+default = true
