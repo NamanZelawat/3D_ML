@@ -7,14 +7,13 @@ requires-python = ">=3.10"
 dependencies = [
     "ipykernel>=7.1.0",
     "matplotlib>=3.10.7",
-    "numpy>=2.2.6",
+    "numpy==1.26.4",
     "trimesh>=4.9.0",
     "tqdm>=4.66.5",
-    "torch>=2.0.1",
+    "torch==2.2.1",
     "torchvision>=0.15.1",
     "torchaudio>=2.0.2",
     "torchinfo>=1.8.0",
-    "setuptools>=80.9.0",
     "ninja==1.5.3",
     "pytorch3d==0.7.8+5043d15pt2.2.1cu118"
 ]
@@ -29,12 +28,13 @@ name = "pypi"
 url = "https://pypi.org/simple"
 
 
+
 [[tool.uv.index]]
 name = "pytorch"
 url = "https://download.pytorch.org/whl/cu118"
 default = true
 
+
 [[tool.uv.index]]
 name = "pytorch3d"
 url = "https://miropsota.github.io/torch_packages_builder" 
-default = true
