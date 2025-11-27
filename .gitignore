@@ -1,3 +1,4 @@
 modelnet/
 modelnet.zip
 final_model.obj
+utils/__pycache__/
