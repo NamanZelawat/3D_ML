@@ -17,6 +17,8 @@ dependencies = [
     "ninja==1.5.3",
     "pytorch3d==0.7.8+5043d15pt2.2.1cu118",
     "streamlit>=1.52.1",
+    "diffusers==0.25.0",
+    "huggingface-hub>=0.25.2",
 ]
 
 
